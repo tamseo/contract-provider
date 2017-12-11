@@ -7,7 +7,7 @@ org.springframework.cloud.contract.spec.Contract.make {
         status 200
         body("""
   {
-    "message": "Hello world"
+    "message": "Hello World"
   }
   """)
     }

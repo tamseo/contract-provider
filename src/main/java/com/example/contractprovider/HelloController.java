@@ -13,7 +13,7 @@ public class HelloController {
     @GetMapping("/hello")
     public ResponseEntity hello() {
         HashMap<String, String> message = new HashMap<>();
-        message.put("message", "Hello world");
+        message.put("message", "Hello World");
         return new ResponseEntity(message, HttpStatus.OK);
     }
 }

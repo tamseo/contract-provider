@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>contract-provider</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for Spring Cloud Contract</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -77,6 +77,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
